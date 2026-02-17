@@ -32,9 +32,11 @@ DEBUG = os.getenv("DEBUG") == "True"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['https://expense-tracker-zyvs.onrender.com']
 
-
+CORS_ALLOW_ALL_ORIGINS = [
+    'expense-tracker-frontend-phi-topaz.vercel.app',
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -108,7 +110,7 @@ REST_FRAMEWORK = {
     )
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
