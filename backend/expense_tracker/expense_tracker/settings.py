@@ -34,9 +34,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['expense-tracker-zyvs.onrender.com']
 
-CORS_ALLOW_ALL_ORIGINS = [
-    'expense-tracker-frontend-phi-topaz.vercel.app',
-]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+# CORS_ALLOW_ALL_ORIGINS = [
+#     'expense-tracker-frontend-phi-topaz.vercel.app',
+# ]
 # Application definition
 
 INSTALLED_APPS = [
