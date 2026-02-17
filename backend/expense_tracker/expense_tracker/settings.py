@@ -32,7 +32,7 @@ DEBUG = os.getenv("DEBUG") == "True"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://expense-tracker-zyvs.onrender.com']
+ALLOWED_HOSTS = ['expense-tracker-zyvs.onrender.com']
 
 CORS_ALLOW_ALL_ORIGINS = [
     'expense-tracker-frontend-phi-topaz.vercel.app',
